@@ -21,6 +21,16 @@
 - Focused on multi-agent systems, computer vision, and multimodal ML pipelines
 - Reach me at **udaynarayana45@gmail.com**
 
+### Now
+- Building **Speak Local, Understand Global** — Data Vidwan capstone, offline lecture translation using Whisper + IndicTrans2
+- Shipping AI/ML features into production at Accesco Living
+
+### Next Up
+- **CodeGuru** — multilingual AI coding tutor backend (FastAPI, multi-provider AI fallback, code execution, mock interviews)
+- **SmartConferencing AI** — secure video platform with focus detection, live moderation, and face-verified entry (FastAPI + React)
+- Deepening agentic orchestration (LangGraph, MCP) beyond LoanShield
+- Exploring on-device / edge inference for the CV projects
+
 ### Current Work
 - **AI/ML Engineer Intern, Accesco Living** (Jul 2026-Present, Remote) - building AI/ML features for the Accesco Living website and mobile app, integrating model-driven functionality with the product team into production.
 - **AI/ML Intern, Data Vidwan** (Jun 2026-Present, Online) - executing live client AI/ML tasks under async submission and review.
@@ -72,7 +82,7 @@ Multi-modal (text/image/video) authenticity classifier using Gemini.
 </td>
 <td width="50%">
 
-**Speak Local, Understand Global** *(ongoing)*
+**Speak Local, Understand Global** *(ongoing — Data Vidwan capstone)*
 Offline-first live lecture translation for English/Hindi/Telugu classrooms. Whisper STT + IndicTrans2/NLLB MT + local Ollama assistant, no cloud dependency.
 ![FastAPI](https://img.shields.io/badge/-FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white) ![Whisper](https://img.shields.io/badge/-Whisper-412991?style=flat-square&logo=openai&logoColor=white) ![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
 
@@ -111,6 +121,30 @@ Offline-first live lecture translation for English/Hindi/Telugu classrooms. Whis
 ![Git](https://img.shields.io/badge/-Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 ![GCP](https://img.shields.io/badge/-Google_Cloud-4285F4?style=for-the-badge&logo=googlecloud&logoColor=white)
 ![Jupyter](https://img.shields.io/badge/-Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white)
+
+---
+
+### GitHub Stats
+
+<div align="center">
+<img src="https://streak-stats.demolab.com/?user=uday-3107&theme=tokyonight&hide_border=true" height="165"/>
+&nbsp;&nbsp;
+<img src="https://github-readme-stats-uday-3cdd.vercel.app/api/top-langs/?username=uday-3107&layout=compact&theme=tokyonight&hide_border=true" height="165"/>
+</div>
+
+<br/>
+
+<div align="center">
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=uday-3107&theme=tokyo-night&hide_border=true&area=true" width="100%"/>
+</div>
+
+<br/>
+
+### Contribution Snake
+
+<div align="center">
+<img src="https://raw.githubusercontent.com/uday-3107/uday-3107/output/github-contribution-grid-snake-dark.svg"/>
+</div>
 
 ---
 
