@@ -129,7 +129,7 @@ Offline-first live lecture translation for English/Hindi/Telugu classrooms. Whis
 <div align="center">
 <img src="https://streak-stats.demolab.com/?user=uday-3107&theme=tokyonight&hide_border=true" height="165"/>
 &nbsp;&nbsp;
-<img src="https://github-readme-stats-uday-3cdd.vercel.app/api/top-langs/?username=uday-3107&layout=compact&theme=tokyonight&hide_border=true" height="165"/>
+<img src="https://github-readme-stats.athul.dev/api/top-langs/?username=uday-3107&layout=compact&theme=tokyonight&hide_border=true" height="165"/> 
 </div>
 
 <br/>
