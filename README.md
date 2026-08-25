@@ -19,7 +19,6 @@
 ### About Me
 - 4th-year B.Tech CSE student (2023-2027)
 - Focused on multi-agent systems, computer vision, and multimodal ML pipelines
-- 6 ML/AI projects shipped, 2 currently in active internships
 - Reach me at **udaynarayana45@gmail.com**
 
 ### Now
