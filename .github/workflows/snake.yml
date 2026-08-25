@@ -1,4 +1,4 @@
-name: Generate Snake Animation
+name: Generate Snake and Activity Graph
 on:
   schedule:
     - cron: "0 0 * * *"
@@ -19,6 +19,15 @@ jobs:
           outputs: |
             dist/github-contribution-grid-snake.svg?color_snake=%23764ba2&color_dots=%2321262d,%23667eea,%237c8ff0,%23a5b4f5,%23c9d3fa&color_outline=%23444444
             dist/github-contribution-grid-snake-dark.svg?color_snake=%23764ba2&color_dots=%2321262d,%23667eea,%237c8ff0,%23a5b4f5,%23c9d3fa&color_outline=%23444444
+
+      - name: Generate activity graph
+        uses: maurodesouza/github-readme-activity-graph-action@v1
+        with:
+          username: uday-3107
+          options: theme=tokyo-night&hide_border=true&area=true
+          output_path: dist/activity-graph.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
       - uses: crazy-max/ghaction-github-pages@v4
         with:
           target_branch: output
