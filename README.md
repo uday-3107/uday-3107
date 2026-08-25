@@ -19,6 +19,7 @@
 ### About Me
 - 4th-year B.Tech CSE student (2023-2027)
 - Focused on multi-agent systems, computer vision, and multimodal ML pipelines
+- 6 ML/AI projects shipped, 2 currently in active internships
 - Reach me at **udaynarayana45@gmail.com**
 
 ### Now
@@ -129,13 +130,13 @@ Offline-first live lecture translation for English/Hindi/Telugu classrooms. Whis
 <div align="center">
 <img src="https://streak-stats.demolab.com/?user=uday-3107&theme=tokyonight&hide_border=true" height="165"/>
 &nbsp;&nbsp;
-<img src="https://github-readme-stats.athul.dev/api/top-langs/?username=uday-3107&layout=compact&theme=tokyonight&hide_border=true" height="165"/> 
+<img src="https://github-readme-stats.athul.dev/api/top-langs/?username=uday-3107&layout=compact&theme=tokyonight&hide_border=true" height="165"/>
 </div>
 
 <br/>
 
 <div align="center">
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=uday-3107&theme=tokyo-night&hide_border=true&area=true" width="100%"/>
+<img src="https://raw.githubusercontent.com/uday-3107/uday-3107/output/activity-graph.svg" width="100%"/>
 </div>
 
 <br/>
