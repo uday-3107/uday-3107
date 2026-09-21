@@ -77,7 +77,7 @@
 ### GitHub Stats
 
 [![GitHub Stats](https://raw.githubusercontent.com/uday-3107/uday-3107/output/github-stats.svg)](https://github.com/uday-3107)
-[![Top Langs](https://github-readme-stats.athul.dev/api/top-langs/?username=uday-3107&layout=compact&theme=tokyonight&hide_border=true)](https://github.com/uday-3107)
+[![Top Langs](https://raw.githubusercontent.com/uday-3107/uday-3107/output/top-langs.svg)](https://github.com/uday-3107)
 
 [![GitHub Streak](https://streak-stats.demolab.com/?user=uday-3107&theme=tokyonight&hide_border=true)](https://github.com/uday-3107)
 
