@@ -31,6 +31,10 @@ jobs:
           output_path: dist/activity-graph.svg
           token: ${{ secrets.GITHUB_TOKEN }}
 
+      - name: Generate stats SVG
+        run: |
+          curl -s "https://github-readme-stats.vercel.app/api?username=uday-3107&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&show=prs_merged,prs_merged_percentage" -o dist/github-stats.svg
+
       - uses: crazy-max/ghaction-github-pages@v4
         with:
           target_branch: output
