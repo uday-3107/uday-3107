@@ -32,9 +32,20 @@ jobs:
           token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Generate stats SVG
+        id: stats
+        continue-on-error: true
+        run: curl -sf --retry 3 --retry-delay 5 "https://github-readme-stats.vercel.app/api?username=uday-3107&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&show=prs_merged,prs_merged_percentage" -o dist/github-stats.svg
+
+      - name: Generate top-langs SVG
+        id: toplangs
+        continue-on-error: true
+        run: curl -sf --retry 3 --retry-delay 5 "https://github-readme-stats.vercel.app/api/top-langs/?username=uday-3107&layout=compact&theme=tokyonight&hide_border=true" -o dist/top-langs.svg
+
+      - name: Fall back to last known-good SVGs if fetch failed
+        if: steps.stats.outcome == 'failure' || steps.toplangs.outcome == 'failure'
         run: |
-          curl -sf --retry 3 --retry-delay 5 "https://github-readme-stats.vercel.app/api?username=uday-3107&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&show=prs_merged,prs_merged_percentage" -o dist/github-stats.svg
-          curl -sf --retry 3 --retry-delay 5 "https://github-readme-stats.vercel.app/api/top-langs/?username=uday-3107&layout=compact&theme=tokyonight&hide_border=true" -o dist/top-langs.svg
+          [ -s dist/github-stats.svg ] || curl -sf "https://raw.githubusercontent.com/uday-3107/uday-3107/output/github-stats.svg" -o dist/github-stats.svg || true
+          [ -s dist/top-langs.svg ] || curl -sf "https://raw.githubusercontent.com/uday-3107/uday-3107/output/top-langs.svg" -o dist/top-langs.svg || true
 
       - uses: crazy-max/ghaction-github-pages@v4
         with:
