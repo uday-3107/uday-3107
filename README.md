@@ -76,7 +76,7 @@
 
 ### GitHub Stats
 
-[![GitHub Streak](https://streak-stats.demolab.com/?user=uday-3107&theme=tokyonight&hide_border=true)](https://github.com/uday-3107)
+[![GitHub Streak](https://streak-stats.demolab.com/?user=uday-3107&theme=tokyonight&hide_border=true&cache_seconds=0)](https://github.com/uday-3107)
 
 [![Activity Graph](https://raw.githubusercontent.com/uday-3107/uday-3107/output/activity-graph.svg)](https://github.com/uday-3107/uday-3107)
 
