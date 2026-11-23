@@ -28,13 +28,16 @@
 - Deepening agentic orchestration (LangGraph, MCP) beyond LoanShield
 - Exploring on-device / edge inference for the CV projects
 
-### Current Work
+### Experience
 
-- **AI/ML Engineer Intern, Accesco Living** (Jul 2026-Present, Remote) — building AI/ML features for the Accesco Living website and mobile app, integrating model-driven functionality with the product team into production.
+**AI/ML Engineer Intern — Accesco Living** · Jul 2026 – Oct 2026 · Remote
+- Built AI/ML features for the Accesco Living website and mobile app, integrating model-driven functionality into production with the product team.
+- Developed a shopping assistant with FAISS semantic search over Firestore, DistilBERT intent detection, Hindi/Telugu/Kannada support via IndicTrans2, Whisper voice input, and a nightly retrain gate.
+- Built a reverse-commerce grading system with YOLOv8s-cls (98.7% accuracy, 100% recall on rejected items), a human-review queue, a food-safety gate, and 59 automated tests.
 
-### Past Experience
-
-- **AI/ML Intern, Data Vidwan** (Jun 2026 – Sep 2026, Online) — executed live client AI/ML tasks under async submission and review; shipped **Speak Local, Understand Global** as capstone.
+**AI/ML Intern — Data Vidwan** · Jun 2026 – Sep 2026 · Online
+- Delivered 9 end-to-end ML projects from preprocessing to deployed Streamlit and FastAPI apps, using SHAP for explainable results.
+- Shipped Speak Local, Understand Global as the capstone: offline-first live lecture translation using Whisper, IndicTrans2/NLLB-200, and a local Ollama assistant.
 
 ---
 
